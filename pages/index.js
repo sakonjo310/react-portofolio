@@ -4,6 +4,7 @@ import Nav from '../components/Nav'
 import Header from '../components/Header'
 import About from '../components/About'
 import Projects from '../components/Projects';
+import Contact from '../components/Contact';
 
 import { useState } from 'react';
 
@@ -29,7 +30,7 @@ export default function Home() {
           <About />
         </section>
         <Projects />
-        
+        <Contact />
 
         
       </main>
