@@ -170,8 +170,9 @@ a {
 }
 
 .contact {
-  background-color: #fff;
-  height: 1000px;
+  background-color: rgb(223, 243, 253);
+  height: 1015px;
+  color: #24305E
 }
 
 .custom-shape-divider-top-1671685247 {
@@ -192,4 +193,35 @@ a {
 
 .custom-shape-divider-top-1671685247 .shape-fill {
   fill: #EAE7DC;
+}
+
+.footer {
+  height: 100px;
+  background-color: #24305E;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-shape-divider-bottom-1671694013 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1671694013 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1671694013 .shape-fill {
+  fill: #24305E;
 }
