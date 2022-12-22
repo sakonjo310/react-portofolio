@@ -9,6 +9,11 @@
   border: none;
 }
 
+html {
+  --scroll-behavior: smooth!important;
+  scroll-behavior: smooth!important;
+}
+
 html,
 body {
   max-width: 100vw;
@@ -85,10 +90,9 @@ a {
 }
 
 .projects {
-  height: 650px;
+  height: auto;
   background-color: #EAE7DC;
   position: relative;
-  top: -130px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -169,40 +173,29 @@ a {
   width: 1000px;
 }
 
-.contact {
-  background-color: rgb(223, 243, 253);
-  height: 1015px;
-  color: #24305E
-}
-
-.custom-shape-divider-top-1671685247 {
-  /* position: absolute; */
-  top: 0;
+.custom-shape-divider-bottom-1671737975 {
+  bottom: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
 }
 
-.custom-shape-divider-top-1671685247 svg {
+.custom-shape-divider-bottom-1671737975 svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
   height: 150px;
 }
 
-.custom-shape-divider-top-1671685247 .shape-fill {
-  fill: #EAE7DC;
+.custom-shape-divider-bottom-1671737975 .shape-fill {
+  fill: #DFF3FD;
 }
 
-.footer {
-  height: 100px;
-  background-color: #24305E;
-  color: #FFFFFF;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.contact {
+  height: auto;
+  background-color: rgb(223, 243, 253);
+  color: #24305E
 }
 
 .custom-shape-divider-bottom-1671694013 {
@@ -225,3 +218,14 @@ a {
 .custom-shape-divider-bottom-1671694013 .shape-fill {
   fill: #24305E;
 }
+
+.footer {
+  height: 100px;
+  background-color: #24305E;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+

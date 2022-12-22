@@ -61,12 +61,17 @@ const Slide = () => {
 
 export default function Projects() {
   return (
-    <div class='projects'>
-      <div className='flex flex-col items-center text-center text-navy mb-10'>
-        <h1 className='text-2xl md:text-4xl mb-5 '>Projects</h1>
+    <div class='projects' id='projects'>
+      <div className='flex flex-col items-center text-center text-navy my-10'>
+        <h1 className='text-2xl md:text-4xl mb-5'>Projects</h1>
       </div>
       <div class="slideshow">
         <Slide />
+      </div>
+      <div class="custom-shape-divider-bottom-1671737975">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+        </svg>
       </div>
     </div>
   )

@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import {FiLinkedin, FiGithub, FiMail} from 'react-icons/fi'
 import { RxDoubleArrowRight } from 'react-icons/rx'
 import svg from '../public/Creator-cuate.svg';
@@ -22,7 +23,7 @@ export default function Header() {
             <a href='https://github.com/sakonjo310' target='_blank' rel="noreferrer noopener"><FiGithub /></a>
             <a href='https://mail.google.com/mail/?view=cm&source=mailto&to=sakonjo310@gmail.com' target='_blank' rel="noreferrer noopener"><FiMail /></a>
           </div>
-          <button className='bg-gradient-to-r from-[#628586] to-[#304242] text-white px-4 py-2 rounded-md mt-10 font-semibold flex items-center' href="#">More about me<RxDoubleArrowRight className='ml-2' /></button>
+          <Link href={'#about'}><button className='bg-gradient-to-r from-[#628586] to-[#304242] text-white px-4 py-2 rounded-md mt-10 font-semibold flex items-center' href="#">More about me<RxDoubleArrowRight className='ml-2' /></button></Link>
         </div>
       </div>
       <div className='relative mx-auto w-96 h-96 mt-10 mb-10 xl:mx-10 hidden xl:block'>

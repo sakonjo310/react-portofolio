@@ -27,7 +27,7 @@ export default function Home() {
           <Nav />
           <Header />
         </section>
-        <section className="min-h-screen">
+        <section>
           <About />
         </section>
         <Projects />
